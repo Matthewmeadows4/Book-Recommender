@@ -3,22 +3,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>Document</title>
 </head>
 
 <header>Find Your Next Favorite Book!</header>
 <body>
     <main>
+
+    <div id="container">
         <label for="dropdown">Genre</label>
-        <select name="genreSelect" id="dropdown">
-            <option selected>Surprise Me!</option>
-            <option>Fantasy</option>
-            <option>Sci-fi</option>
-            <option>Self-Help</option>
-            <option>Non-Fiction</option>
-            <option>Young Adult</option>
+        <select id="genre" onchange="update()">
+            <option value="sur" selected>Surprise Me!</option>
+            <option value="fan" >Fantasy</option>
+            <option value="sci">Sci-fi</option>
+            <option value="sel">Self-Help</option>
+            <option value="non">Non-Fiction</option>
+            <option value="you">Young Adult</option>
         </select>
-        <button id="submit" onclick="">Find Me A Book!</button>
+        <button id="submit">Find Me A Book!</button>
+        <script src="js/js.js"></script>
+    </div>
+    <div id="output">Your Next Favorite Book!</div>
     </main>
 </body>
 </html>
