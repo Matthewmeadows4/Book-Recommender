@@ -1,17 +1,30 @@
-books = [
-    { name: 'Harry Potter',  genre: "Young Adult"},
-    { name: 'Lord of The Rings', genre: "Fantasy"},
-]
+function update() {
+  var select = document.getElementById("genre");
+  var text = select.options[select.selectedIndex].text;
+  console.log(text);
+}
 
-filteredbooks = books.filter((books) => {
-    return books.genre == "Fantasy"
-})
+function newBook() {
+  var select = document.getElementById("genre");
+  var text = select.options[select.selectedIndex].text;
+  books = [
+    { title: "Harry Potter", genre: "Young Adult" },
+    { title: "Lord of The Rings", genre: "Fantasy" },
+  ];
 
-console.log (filteredbooks)
+  filteredbooks = books.filter((books) => {
+    books.genre == text;
+  });
 
-function update(){
-var select = document.getElementById('genre');
-var value = select.options[select.selectedIndex].value;
+  let title = (filteredbooks = books.filter((books) => {
+    books.genre == text;
+  }));
+  if (title == "") {
+    (confirm ((text)));
+  }
+  
+}
 
-console.log(value)}
+function onconfirm(){
 
+}
