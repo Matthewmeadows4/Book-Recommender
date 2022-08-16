@@ -1,30 +1,90 @@
-function update() {
-  var select = document.getElementById("genre");
-  var text = select.options[select.selectedIndex].text;
-  console.log(text);
+const generateBook = function() {
+   const books = [
+   {
+      book: 'The It Girl',
+      author: 'Ruth Ware'
+   },
+   {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'The Bodyguard',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Katherine Center'
+   }, {
+      book: 'Upgrade',
+      author: 'Blake Crouch'
+   }, {
+      book: 'Things We Do in the Dark',
+      author: 'Jennifer Hillier'
+   }, {
+      book: 'Below Zero (The STEMinist Novellas, #3)',
+      author: 'Ali Hazelwood'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   }, {
+      book: 'Tomorrow, and Tomorrow, and Tomorrow',
+      author: 'Gabrielle Zevin'
+   },
+   ]
+
+   let arrayIndex = Math.floor(Math.random() * books.length);
+   document.getElementById("book").innerHTML = books[arrayIndex].book;
+   document.getElementById("author").innerHTML = books[arrayIndex].author;
+
 }
-
-function newBook() {
-  var select = document.getElementById("genre");
-  var text = select.options[select.selectedIndex].text;
-  books = [
-    { title: "Harry Potter", genre: "Young Adult" },
-    { title: "Lord of The Rings", genre: "Fantasy" },
-  ];
-
-  filteredbooks = books.filter((books) => {
-    books.genre == text;
-  });
-
-  let title = (filteredbooks = books.filter((books) => {
-    books.genre == text;
-  }));
-  if (title == "") {
-    (confirm ((text)));
-  }
-  
-}
-
-function onconfirm(){
-
+window.onload = function() {
+   generateBook();
+   document.getElementById("generate").addEventListener('click', generateBook);
 }

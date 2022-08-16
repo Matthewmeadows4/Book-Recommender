@@ -4,28 +4,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Recs!</title>
-    <title>Document</title>
 </head>
 
 <header>Find Your Next Favorite Book!</header>
 <body>
     <main>
-
-    <div id="container">
-        <label for="dropdown">Genre</label>
-        <select id="genre" onchange="update()">
-            <option value="sur" selected>Surprise Me!</option>
-            <option value="fan" >Fantasy</option>
-            <option value="sci">Sci-fi</option>
-            <option value="sel">Self-Help</option>
-            <option value="non">Non-Fiction</option>
-            <option value="you">Young Adult</option>
-        </select>
-        <button onclick="newBook()">Find me a book!</button>
-        <script src="js/js.js"></script>
-
+        <div id="heroText">
+            <h1>What is this?</h1>
+            <p> This is a random book genorator based on the top 25 books of the month on Goodreads! I will be updating the genorator every month.</p>
+        </div>
+        <div id="submitArea">
+        </div>
+    <div id="bookDisplay">
+        <p id="book"></p>
+        <p id="author"></p>
+        <button id="generate">Find Your Next Favorite Book!!!!</button>
     </div>
-    <div id="bookDisplay" >Your Next Favorite Book!</div>
+
+    <script src="js/js.js"></script>
     </main>
 </body>
 </html>
