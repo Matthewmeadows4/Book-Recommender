@@ -1,12 +1,22 @@
+
 body,html{
     height: 100%;
-    background-color: aqua;
+    background-color: #08B2E3;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header{
+    background-color: #EE6352;
+    text-align: center;
+    color: white;
+    font-size: 50px;
 }
 
 #herotext{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .bookDisplay{
@@ -14,15 +24,17 @@ body,html{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .bookText{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     width: 500px;
     height: 200px;
     color: white;
-    background-color: black;
+    background-color: #57A773;
 }

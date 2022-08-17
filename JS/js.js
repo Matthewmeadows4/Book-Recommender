@@ -2,7 +2,8 @@ const generateBook = function() {
    const books = [
    {
       book: 'The It Girl',
-      author: 'Ruth Ware'
+      author: 'Ruth Ware',
+      
    },
    {
       book: 'Tomorrow, and Tomorrow, and Tomorrow',
