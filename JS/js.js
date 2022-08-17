@@ -3,7 +3,6 @@ const generateBook = function() {
    {
       book: 'The It Girl',
       author: 'Ruth Ware',
-      
    },
    {
       book: 'Tomorrow, and Tomorrow, and Tomorrow',
