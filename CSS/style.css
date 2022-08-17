@@ -1,3 +1,28 @@
-body{
+body,html{
+    height: 100%;
     background-color: aqua;
+}
+
+#herotext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookDisplay{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    color: white;
+    background-color: black;
 }
