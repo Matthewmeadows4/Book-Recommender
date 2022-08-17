@@ -11,9 +11,6 @@ const generateBook = function() {
       book: 'The Bodyguard',
       author: 'Gabrielle Zevin'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Katherine Center'
-   }, {
       book: 'Upgrade',
       author: 'Blake Crouch'
    }, {
@@ -23,60 +20,63 @@ const generateBook = function() {
       book: 'Below Zero (The STEMinist Novellas, #3)',
       author: 'Ali Hazelwood'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'The Daughter of Doctor Moreau',
+      author: 'Silvia Moreno-Garcia'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'The Last to Vanish',
+      author: 'Megan Miranda'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'The Brighter the Light',
+      author: 'Mary Ellen Taylor'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: '1984',
+      author: 'George Orwell'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'Killing Stalking: Deluxe Edition, Vol. 1',
+      author: 'Koogi'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'The Pallbearers Club',
+      author: 'Paul Tremblay'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'These Twisted Bonds (These Hollow Vows, #2)',
+      author: 'Lexi Ryan'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'The Librarian Spy',
+      author: 'Madeline Martin'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'Just Like Home',
+      author: 'Sarah Gailey'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'Acts of Violet',
+      author: 'Margarita Montimore'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'Honey & Spice',
+      author: 'Bolu Babalola'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'Booked on a Feeling (A Sweet Mess, #3)',
+      author: 'Jayci Lee'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'Dream On',
+      author: 'Angie Hockman'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'What Moves the Dead',
+      author: 'T. Kingfisher'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'Does It Hurt?',
+      author: 'H.D. Carlton'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'Kristin Lavransdatter (Kristin Lavransdatter, #1-3)',
+      author: 'Sigrid Undset'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
+      book: 'Violet Made of Thorns (Violet Made of Thorns, #1)',
+      author: 'Gina Chen'
    }, {
-      book: 'Tomorrow, and Tomorrow, and Tomorrow',
-      author: 'Gabrielle Zevin'
-   },
+      book: 'Bet on It',
+      author: 'Jodie Slaughter'
+   }, {
+      book: 'The New Neighbor',
+      author: 'Karen Cleveland'
+   }, 
    ]
 
    let arrayIndex = Math.floor(Math.random() * books.length);
