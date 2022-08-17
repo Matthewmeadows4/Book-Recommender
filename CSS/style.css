@@ -1,4 +1,5 @@
-
+@media (min-width: 375px){
+    
 body,html{
     height: 100%;
     background-color: #08B2E3;
@@ -7,6 +8,9 @@ body,html{
 
 header{
     background-color: #EE6352;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: white;
     font-size: 50px;
@@ -37,4 +41,5 @@ header{
     height: 200px;
     color: white;
     background-color: #57A773;
+}
 }
