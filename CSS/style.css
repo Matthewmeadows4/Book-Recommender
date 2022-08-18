@@ -43,7 +43,8 @@ header{
     height: 200px;
     color: white;
     background-color: #57A773;
-}
+    border-radius: 30px;
+    border: thick solid #EE6352;}
 
 
 
