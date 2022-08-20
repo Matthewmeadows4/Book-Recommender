@@ -46,10 +46,15 @@ header{
     border-radius: 30px;
     border: thick solid #EE6352;}
 
-
+    .fullBleed{
+        box-shadow: 0 0 0 100vmax #EE6352;
+        clip-path: inset(0 -100vmax);
+    }
 
 @media only screen and (min-width: 900px) {
     .bookText {
       width: 1000px;
     }
+
+   
   }
